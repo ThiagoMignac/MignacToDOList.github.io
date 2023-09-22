@@ -1,7 +1,7 @@
 :root{
     --colorBackground: #21276B;
     --colorFont: #e5e7fd;
-    --colorbotao:#646fd4 ;
+    --colorbotao:#646fd4;
     
 }
 
@@ -43,7 +43,7 @@ body{
 }
 #botaoNovaTask :hover{
     cursor: pointer;
-    background-color: var(--colorBotao);
+    background-color: var(--colorbotao);
     border-radius: 50px;
     transition: .5s;
 }
