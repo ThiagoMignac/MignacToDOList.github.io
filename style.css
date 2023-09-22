@@ -1,3 +1,17 @@
+:root{
+    --colorBackground: #21276B;
+    --colorFont: #e5e7fd;
+    --colorbotao:#646fd4 ;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--colorFont);
+    background-color: var(--colorBackground);
+}
 .contentAddItem{
     display: flex;
     flex-direction: row;
@@ -25,11 +39,11 @@
 }
 #fotoBotao{
     zoom: 3;
-    color: var(--CorDosTextos);
+    color: rgb(149, 172, 248);
 }
 #botaoNovaTask :hover{
     cursor: pointer;
-    background-color: var(--CorDosIcones);
+    background-color: var(--colorBotao);
     border-radius: 50px;
     transition: .5s;
 }
